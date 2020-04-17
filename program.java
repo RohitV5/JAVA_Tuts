@@ -7,7 +7,6 @@ class program1
           castingDataTypes();
     }
 
-
     public static void info(){
         // System is a predefined class
         // out is a variable
