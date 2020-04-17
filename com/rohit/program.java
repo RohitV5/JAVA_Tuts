@@ -1,11 +1,27 @@
-class program1
+package com.rohit;
+
+
+class program
 {
     public static void main( String args[]){
           // intDataType();
           // byteDataType();
           // longDataType();
           // castingDataTypes();
-        floatPrecision();
+          // floatPrecision();
+
+
+    }
+
+
+    public static void  classDemo(){
+        Car porsche = new Car();
+
+        //setter method used
+        porsche.setModel("carrerra");
+
+        //getter method used
+        System.out.print(porsche.getModel());
     }
 
     public static void info(){
@@ -97,5 +113,14 @@ class program1
         double myDouble = 5.25d; //5.25
 
         // float is single precision 32bit and double is double 64 bit
+    }
+
+
+    public static void expressions(){
+        int score = 100;
+        if(score > 99){
+            // do something statements
+        }
+
     }
 }
