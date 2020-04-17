@@ -1,10 +1,11 @@
 class program1
 {
     public static void main( String args[]){
-          //        intDataType();
-          //        byteDataType();
-          //        longDataType();
-          castingDataTypes();
+          // intDataType();
+          // byteDataType();
+          // longDataType();
+          // castingDataTypes();
+        floatPrecision();
     }
 
     public static void info(){
@@ -83,5 +84,18 @@ class program1
         byte val3 = (byte)(val1+val2);
         System.out.print(val3);
 
+    }
+
+    public static void floatPrecision(){
+        float minMinFloat = Float.MIN_VALUE;
+        float maxMinFloat = Float.MAX_VALUE;
+
+        System.out.print("Float Max value " + minMinFloat);
+        System.out.print("Float MIn value" + maxMinFloat);
+
+        float myFloat = 5.25f; //5.25
+        double myDouble = 5.25d; //5.25
+
+        // float is single precision 32bit and double is double 64 bit
     }
 }
