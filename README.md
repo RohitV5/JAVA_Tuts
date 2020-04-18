@@ -12,3 +12,5 @@
 # objects have state (variables) and behaviour (methods)
 # class is a blueprint for creating object
 
+# Code > Generate > Getters and Setters
+
